@@ -109,6 +109,12 @@ header {
     margin: 20px 0;
 }
 
+.p-black-friday, .p-mais-devoradas {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
 #h2-nossa-historia, .p-nossa-historia  {
     margin-bottom: 10px;
 }
@@ -117,6 +123,8 @@ header {
     border-radius: 10px;
     padding: 0 5px;
     cursor: pointer;
+    width: 500px;
+    height: auto;
 }
 
 footer {
@@ -189,7 +197,7 @@ footer {
     padding: 5px;
     background-repeat: no-repeat;
     margin-bottom: 10px;
-    color: var(--cor-preto);
+    color: var(--cor-de-fundo);
 }
 
 .parag-cab {
@@ -218,7 +226,6 @@ footer {
 .imgcard {
     text-align: center;
 }
-/* FIM PARTE IBERMON */
 
 #section-pedido {
     padding: 20px;
@@ -437,88 +444,6 @@ iframe {
 
 /* Fim parte Gabriel */
 
-/* PARTE PLGABRIEL */
-
-/* Estilização do corpo */
-#body-promocoes {
-    background-color: #FD8D14;
-    font-family: sans-serif;
-    width: auto;
-    max-width: auto;
-}
-/* Estilização dos títulos e textos */
-#titulo-promocao {
-    border: 5px solid black;
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    color: black;
-    font-size: 50px;
-    width: auto;
-}
-#texto-promocao {
-    display: block;
-    background-color: #FFE178;
-    width: auto;
-    justify-content: center;
-    font-style: italic;
-    font-size: 30px;
-}
-#texto-titulo-promocoes {
-    font-style: italic;
-    font-size: 20px;
-}
-/* Estilização da tabela */
-.tabela-toda {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    width: auto;
-    background-color: #FFE178;
-}
-.celulas-promocao{
-    border: 2px solid black;
-    width: 1500px;
-    height: 30px;
-}
-/* Estilização das imagens */
-.container-imagens-promocoes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-.imagem {
-    display: flex;
-    align-self: baseline;
-    width: 500px;
-    justify-content: center;
-    margin-right: 100px;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-left: 75px;
-}
-
-/* Estilizando âncora das promoções */
-.ancora-promocoes {
-    display: flex;
-    justify-content: center;
-    width: 600px;
-    color: black;
-}
-.ancora-promocoes:hover {
-    color: #FFE17B;
-}
-.ancora-promocoes:visited {
-    color: blue;
-}
-.ancora-promocoes:active {
-    color: white;
-}
-
-/* FIM PARTE PLGABRIEL */
-
 @media screen and (max-width: 1150px) {
     /* Parte Cidrack */
     .cabecalho {
@@ -540,165 +465,54 @@ iframe {
         margin-bottom: 20px;
     }
 
-    section div img {
-        margin-bottom: 20px;
-    }
-
-    .rodape {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .logo, .redes-sociais, .menu {
-        width: 100%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .menu nav a {
-        padding-right: 20px;
-    }
-
-    section div {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    section div img {
-        margin-bottom: 20px;
-    }
-
-    .rodape {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    /* Parte Gabriel */
-
-    #grid-lojas {
-        display: inline;
-        padding: auto;
-        gap: auto;
-    }
-
-    #tabela-lojas {
-        font-size: 16px;
-    }
-
-    #tabela-lojas caption {
-        font-size: 20px;
-    }
-
-    #div-titulo h1 {
-        font-size: 42px;
-    }
-    
-    #div-titulo p {
-        font-size: 18px;
-    }
-
-    iframe {
+    .img-section-home {
         height: auto;
+        width: 100%;
     }
 
-    /*Fim Parte Gabriel */
-
-    /* PARTE PLGABRIEL */
-    #body-promocoes {
-        background-color: red;
-        font-family: sans-serif;
-        width: 700px;
-        max-width: 1000px;
-    }
-    #titulo-promocao {
-        border: 5px solid black;
-        display: flex;
-        justify-content: center;
-        background-color: #FD8D14;
-        color: black;
-        font-size: 50px;
-        width: 700px;
-    }
-    #texto-promocao {
-        display: block;
-        background-color: #FFE178;
-        width: 700px;
-        justify-content: center;
-        font-style: italic;
-        font-size: 25px;
-    }
-    #texto-titulo-promocoes {
-        font-style: italic;
-        font-size: 20px;
-    }
-
-    /* Estilização da tabela */
-    .tabela-toda {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        width: 700px;
-        background-color: #FFE178;
-    }
-    .celulas-promocao{
-        border: 2px solid black;
-        width: 700px;
-        height: 30px;
-    }
-
-    /* Estilização das imagens */
-    .container-imagens-promocoes {
-        display: flex;
+    .rodape {
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: left;
+        text-align: center;
     }
-    .imagem {
-        display: flex;
-        align-self: stretch;
-        width: 600px;
-        padding: 15px;
-        margin-left: 20px;
-        justify-content: left;
+
+    /* background cardapio */
+    .h1-cab {
+        background-size: 100%;
+        height: 200px;
     }
-    /*Estilização do rodapé*/
-    .rodape-promocao  {
-        display: flex;
-        border: 3px solid black;
-        border-radius: 2px;
-        width: 350px;
-        margin-left: 160px;
-        align-items: center;
-        align-content: center;
-    }
-    
-    /* Estilizando âncora das promoções */
-    .ancora-promocoes {
-        display: flex;
-        align-self: center;
-        justify-content: center;
-        width: 350px;
-        color: black;
-    }
-    .ancora-promocoes:hover {
-        color: white;
-    }
-    .ancora-promocoes:visited {
-        color: yellow;
-    }
-    .ancora-promocoes:active {
-        color: blue;
-    }
-    /*FIM PARTE PLGABRIEL */
+
 }
+
+/* Parte Gabriel */
+
+#grid-lojas {
+    display: inline;
+    padding: auto;
+    gap: auto;
+}
+
+#tabela-lojas {
+    font-size: 16px;
+}
+
+#tabela-lojas caption {
+    font-size: 20px;
+}
+
+#div-titulo h1 {
+    font-size: 42px;
+}
+    
+#div-titulo p {
+    font-size: 18px;
+}
+
+iframe {
+    height: auto;
+}
+
+/*Fim Parte Gabriel */
+
 
 @media(max-width: 500px) {
     /* Parte Gabriel */
