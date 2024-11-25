@@ -8,9 +8,7 @@
     --cor-de-fundo: #ec9500;
     --cor-terracota: #e03f00;
     --cor-preto: #000;
-    
     --cor-terracota-hover: #972b00;
-    background-size: cover;
 }
 
 body {
@@ -192,6 +190,7 @@ footer {
 /* PARTE IBERMON */
 .h1-cab {
     background-image: url(https://pizzariadonaamelia.com.br/wp-content/uploads/2020/01/foto-pizza-site-1.jpg);
+    background-size: cover;
     font-size: 25px;
     height: 400px;
     padding: 5px;
@@ -536,4 +535,3 @@ iframe {
 
     /*Fim Parte Gabriel */
 }
-
