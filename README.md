@@ -7,7 +7,7 @@ Membros: Cidrack | Ibermon | Gabriel S. | Nathan | PL Gabriel.
 
 Cidrack - Página da Home, Header e Footer das Páginas.
 <br>
-Ibermon - página do Cardápio.
+Ibermon - Página do Cardápio.
 <br>
 Nathan - Página de Pedidos.
 <br>
