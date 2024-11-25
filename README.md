@@ -5,8 +5,13 @@ Equipe: 6
 Membros: Cidrack | Ibermon | Gabriel S. | Nathan | PL Gabriel.
 <br>
 
-Cidrack: página - Home e Header, Footer das páginas
-Ibermon: página - Cardápio
-Nathan: página - Pedidos
-PL Gabriel: página - Promoções
-Gabriel E.: página - Lojas
+Cidrack - Página da Home, Header eFooter das páginas
+<br>
+Ibermon - página do Cardápio
+<br>
+Nathan - Página de Pedidos
+<br>
+PL Gabriel - Página de Promoções
+<br>
+Gabriel E. - Página de Lojas
+<br>
