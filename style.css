@@ -483,6 +483,24 @@ iframe {
 
 }
 
+@media screen and (max-width: 1300px) {
+        /* promocoes */
+
+    .container-imagens-promocoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5%;
+    }
+
+    .container-imagens-promocoes img {
+        height: auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
 /* Parte Gabriel */
 
 #grid-lojas {
